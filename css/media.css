@@ -117,4 +117,10 @@
     width: 70%;
   }
 }
+
+@media all and (orientation: landscape), all and (min-width: 580px) {
+  header {
+    display: block;
+  }
+}
 /*# sourceMappingURL=media.css.map */
