@@ -28,7 +28,7 @@
   }
   header .links .nav_link {
     margin-top: 66px;
-    margin-right: 70px;
+    width: 400px;
     font-size: 34px;
   }
   header .links .nav_link:first-child {
