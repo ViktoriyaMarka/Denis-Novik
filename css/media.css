@@ -1,0 +1,119 @@
+@media (max-width: 580px) {
+  body::before {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  body.lock {
+    overflow: hidden;
+  }
+  header {
+    margin-right: -40px;
+    display: none;
+    border-bottom: none;
+    height: 100vh;
+    overflow: auto;
+  }
+  header .links {
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .links .nav_link {
+    margin-top: 66px;
+    font-size: 34px;
+  }
+  header .links .nav_link:first-child {
+    margin-top: 37px;
+  }
+  .main_first {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 34px;
+    cursor: pointer;
+  }
+  .times {
+    margin-right: 40px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 17px;
+    z-index: 2;
+    font-size: 30px;
+    color: #828282;
+    cursor: pointer;
+  }
+  .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 30px;
+  }
+  .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .languages {
+    display: none;
+    opacity: 0;
+  }
+  .Dennis {
+    height: 478px;
+  }
+  .man {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .contacts_link {
+    width: 370px;
+  }
+}
+
+@media (max-width: 809px) {
+  .program_item {
+    width: 40%;
+  }
+}
+
+@media (max-width: 569px) {
+  .program_item {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
